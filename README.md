@@ -26,7 +26,7 @@ Ouvrez le navigateur Anaconda, et ouvrir Jupyter Notebook.
 ### **3. Installer les dépendances**
 Ouvrez un terminal dans la session de Jupyter Notebook, et placez vous dans le répertoire du projet :
 ```bash
-cd ./chemin_vers_projet/Maths6_ModNum_25-26
+cd ./chemin_vers_projet/simulation_sumerique_25-26
 ```
 
 Puis installez les dépendances nécessaires avec la commande suivante dans votre terminal:
