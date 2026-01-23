@@ -23,6 +23,10 @@ Décompressez-le dans le répertoire de votre choix sur votre machine.
 ### **2. Ouvrir Jupyter Notebook.**
 Ouvrez le navigateur Anaconda, et ouvrir Jupyter Notebook.
 
+Si vous avez sauvegardé vos travaux dans un autre disque, par exemple "P:", ouvrez un terminal avec Anaconda Prompte et lancez Jupyter Notebook directement dans ce répertoire en utilisant la commande suivante :
+```bash
+python -m notebook --notebook-dir="P:/chemin_vers_projet/simulation_numerique_25-26"
+
 ### **3. Installer les dépendances**
 Ouvrez un terminal dans la session de Jupyter Notebook, et placez vous dans le répertoire du projet :
 ```bash
