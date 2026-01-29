@@ -4,5 +4,5 @@ scipy
 matplotlib
 astropy
 ipywidgets
-pygame
+# pygame
 
