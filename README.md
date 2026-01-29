@@ -20,15 +20,8 @@ Aucun prérequis n'est nécessaire, que ce soit en programmation sous python ou 
 Pour récupérer le projet, cliquez sur le bontou vert "<> Code" en haut à droite de cette page, puis télécharger le fichier zip.
 Décompressez-le dans le répertoire de votre choix sur votre machine.
 
-### **2. Ouvrir Jupyter Notebook.**
-Ouvrez le navigateur Anaconda, et ouvrir Jupyter Notebook.
-
-Si vous avez sauvegardé vos travaux dans un autre disque, par exemple "P:", ouvrez un terminal avec Anaconda Prompte et lancez Jupyter Notebook directement dans ce répertoire en utilisant la commande suivante :
-```bash
-python -m notebook --notebook-dir="P:/chemin_vers_projet/simulation_numerique_25-26"
-
-### **3. Installer les dépendances**
-Ouvrez un terminal dans la session de Jupyter Notebook, et placez vous dans le répertoire du projet :
+### **2. Installer les dépendances**
+Ouvrez un terminal, et placez vous dans le répertoire du projet :
 ```bash
 cd ./chemin_vers_projet/simulation_sumerique_25-26
 ```
@@ -36,6 +29,29 @@ cd ./chemin_vers_projet/simulation_sumerique_25-26
 Puis installez les dépendances nécessaires avec la commande suivante dans votre terminal:
 ```bash
 python -m pip install -r requirements.txt
+```
+
+### **3. Ouvrir Jupyter Notebook.**
+
+## **Avec Anaconda** :
+Ouvrez le navigateur Anaconda, et ouvrir Jupyter Notebook.
+
+Si vous avez sauvegardé vos travaux dans un autre disque, par exemple "P:", ouvrez un terminal avec Anaconda Prompte et lancez Jupyter Notebook directement dans ce répertoire en utilisant la commande suivante :
+```bash
+python -m notebook --notebook-dir="P:/chemin_vers_projet/simulation_numerique_25-26"
+```
+
+## **Sans Anaconda** :
+
+Pour démarrer l'environnement Jupyter Notebook, exécutez la commande suivante dans le répertoire du projet :
+```bash
+python -m notebook
+```
+Cela ouvrira une interface dans votre navigateur où vous pourrez accéder aux fichiers `.ipynb`.
+
+Si vous avez sauvegardé vos travaux dans un autre disque, par exemple "P:", vous pouvez lancer Jupyter Notebook directement dans ce répertoire en utilisant la commande suivante :
+```bash
+python -m notebook --notebook-dir="P:/chemin_vers_projet/Maths6_ModNum_25-26"
 ```
 
 ### **4. Avant chaque séance**
